@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="gig_test8.client/gig_test8.client.esproj">
+    <Build />
+    <Deploy />
+  </Project>
+  <Project Path="gig_test8.Server/gig_test8.Server.csproj" />
+</Solution>

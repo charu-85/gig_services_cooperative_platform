@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.VisualStudio.JavaScript.Sdk/1.0.5581896">
+  <PropertyGroup>
+    <StartupCommand>npm run dev</StartupCommand>
+    <JavaScriptTestRoot>src\</JavaScriptTestRoot>
+    <JavaScriptTestFramework>Vitest</JavaScriptTestFramework>
+    <!-- Allows the build (or compile) script located on package.json to run on Build -->
+    <ShouldRunBuildScript>false</ShouldRunBuildScript>
+    <!-- Folder where production build objects will be placed -->
+    <BuildOutputFolder>$(MSBuildProjectDirectory)\dist</BuildOutputFolder>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="src\index.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\arvin\Downloads\logofinal.jpeg">
+      <Link>logofinal.jpeg</Link>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptConfiguration Include="C:\Users\arvin\Downloads\gig\gig\frontend\src\dp.jpg">
+      <Link>src\dp.jpg</Link>
+    </TypeScriptConfiguration>
+    <TypeScriptConfiguration Include="src\index.css" />
+  </ItemGroup>
+</Project>
